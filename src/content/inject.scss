@@ -1,0 +1,27 @@
+//== GOOGLE
+
+#searchform {
+    .research-box {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 650px;
+    }
+    .research-box__search-button {
+        display: block;
+        width: 44px;
+        height: 44px;
+        margin: 1px 5px 1px 0;
+        border-radius: 50%;
+    }
+    .research-box__search-button:hover {
+        box-shadow: 0 1px 6px 0 rgba(32,33,36,.4);
+    }
+}
+#searchform.minidiv {
+    .research-box__search-button {
+        width: 32px;
+        height: 32px;
+    }
+}
+
